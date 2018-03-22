@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>Falsify.Core</PackageId>
+    <PackageVersion>1.0</PackageVersion>
+    <Authors>Joe Cooper</Authors>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/JoeCooper/Falsify/blob/master/LICENSE</PackageLicenseUrl>
+    <Owners>Joe Cooper</Owners>
+    <PackageProjectUrl>https://github.com/JoeCooper/Falsify</PackageProjectUrl>
+    <Summary>Falsify is a body of validation methods with a twist. For .NET Standard.</Summary>
+    <PackageTags>validation format</PackageTags>
+    <Title>Falsify.Core</Title>
+    <Description>Falsify.Core contains the core interface for all falsifiers (Falsify.IFalsify).</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interface\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+</Project>
