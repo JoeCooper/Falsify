@@ -10,10 +10,11 @@
     <PackageLicenseUrl>https://github.com/JoeCooper/Falsify/blob/master/LICENSE</PackageLicenseUrl>
     <Owners>Joe Cooper</Owners>
     <PackageProjectUrl>https://github.com/JoeCooper/Falsify</PackageProjectUrl>
-    <Summary>Falsify is a body of validation methods with a twist. For .NET Standard.</Summary>
+    <Summary>Falsify is a body of methods designed to efficiently reject bad data.</Summary>
     <PackageTags>validation format</PackageTags>
     <Title>Falsify.Core</Title>
-    <Description>Falsify.Core contains the core interface for all falsifiers (Falsify.IFalsify).</Description>
+    <Description>Falsify is a body of methods designed to efficiently reject bad data. Falsify.Core contains the core interface for all falsifiers (Falsify.IFalsify).</Description>
+    <DevelopmentDependency>true</DevelopmentDependency>
   </PropertyGroup>
 
   <ItemGroup>

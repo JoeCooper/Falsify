@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
+    <PackageId>Falsify.Encodings</PackageId>
+    <PackageVersion>0.1</PackageVersion>
+    <Authors>Joe Cooper</Authors>
+    <Description>Falsify is a body of methods designed to efficiently reject bad data. Falsify.Encodings includes: Base64 URL encoding.</Description>
+    <Owners>Joe Cooper</Owners>
+    <Summary>Falsify is a body of methods designed to efficiently reject bad data. Falsify.Encodings includes: Base64 URL encoding.</Summary>
+    <Title>Falsify.Encodings</Title>
+    <PackageProjectUrl>https://github.com/JoeCooper/Falsify</PackageProjectUrl>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/JoeCooper/Falsify/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageReleaseNotes>Obviously this is very incomplete.</PackageReleaseNotes>
+    <PackageTags>validation data format</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,5 +21,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Collections.Immutable" Version="1.4.0" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
   </ItemGroup>
 </Project>
