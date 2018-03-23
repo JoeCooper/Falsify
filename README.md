@@ -21,3 +21,9 @@ Falsify.Core carries a single interface, written like so:
 * An ideal implementation reads as little of the stream as possible.
 
 * An ideal implementation does not keep large buffers.
+
+## Implementations
+
+### Falsify.Encodings
+
+* Base64URLEncoding
