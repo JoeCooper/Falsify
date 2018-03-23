@@ -14,6 +14,7 @@
     <PackageLicenseUrl>https://github.com/JoeCooper/Falsify/blob/master/LICENSE</PackageLicenseUrl>
     <PackageReleaseNotes>Obviously this is very incomplete.</PackageReleaseNotes>
     <PackageTags>validation data format</PackageTags>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
